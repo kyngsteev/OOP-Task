@@ -48,12 +48,17 @@ class Motorcycle extends Vehicle{
   }
 }
 
-// Make car from Vehicle
+// Make Car from class Vehicle
+// Polymorphism
 let car1 = new Vehicle("Car", "BMW", "grey", "5 Series")
+let motorcycle1 = new Vehicle("Motorctcle", "Bajaj", "grey", "220BJ")
 car1.print();
+motorcycle1.print();
 
+// Make Car from class Car
 let car2 = new Car("Mercedes", "blue", "c330");
 car2.paint();
 
+// Make motorcycle from class Motorcycle
 let motorcycle = new Motorcycle("Bajaj", "450cc", "220BJ");
 motorcycle.print();
